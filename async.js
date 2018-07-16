@@ -12,6 +12,7 @@ xhr.open("GET", "https://freetrial1566893.beekeeper.io/api/2/conversations/27580
 xhr.setRequestHeader("authorization", "Token 47e6a7a2-a0d0-468f-92c1-7f45f0f0bdff");
 xhr.setRequestHeader("Accept", "application/json");
 xhr.setRequestHeader("Content-type", "application/json");
+xhr.setRequestHeader("Access-Control-Allow-Origin", "http://54.197.22.145")
 
 xhr.send();
 
