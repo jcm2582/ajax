@@ -13,6 +13,7 @@ xhr.setRequestHeader("authorization", "Token 47e6a7a2-a0d0-468f-92c1-7f45f0f0bdf
 xhr.setRequestHeader("Accept", "application/json");
 xhr.setRequestHeader("Content-type", "application/json");
 xhr.setRequestHeader("Access-Control-Allow-Origin", "http://54.197.22.145");
+xhr.setRequestHeader("Origin", "http://54.197.22.145");
 
 xhr.send();
 
